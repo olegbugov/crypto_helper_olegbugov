@@ -16,7 +16,7 @@ FLAG = r'ZN2025{<flag>}'
 def check_and_auth(chat_id, password):
 
     if chat_id not in chat_id_save:
-        if password == 'LH179o2LQPH8':
+        if password == '*****':
             chat_id_save.append(chat_id)
         else:
             return False
